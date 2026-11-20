@@ -1,6 +1,6 @@
 # Haier Matrix TV Launcher 📺
 
-**Mohamed Yasser's exact TV setup — every feature — except his personal accounts.**
+A complete Android TV launcher for Haier Matrix TVs — prayer times & adhan, Arabic voice assistant, auto game mode, cinema & match night, live Egyptian league scores.
 
 A complete Android TV launcher based on [CleanYourTV](https://github.com/Gathin/cleanyourtv) (MIT license), customized for the Haier Matrix TV. It includes prayer times and adhan, an Arabic voice assistant, auto game mode, cinema and match-night scenes, live Egyptian league scores, and much more.
 
@@ -8,7 +8,7 @@ A complete Android TV launcher based on [CleanYourTV](https://github.com/Gathin/
 
 | TV | Status |
 |---|---|
-| **Haier Matrix H43K80EF** (or any model on the same HRT56EU board) | ✅ **Full** — every feature works exactly as on Mohamed Yasser's TV |
+| **Haier Matrix H43K80EF** (or any model on the same HRT56EU board) | ✅ **Full** — every feature works in full |
 | Any Android TV 14 with a **MT5867** (MediaTek) chip | ✅ Full, most likely |
 | Any Android TV **14** on ARM | ✅ Core features work (prayer, adhan, voice, cinema, scores) — auto game mode and the remote's Settings/Mic keys may need tweaking |
 | Android TV **older than 14** or non-ARM chips | ❌ Not guaranteed |
@@ -43,7 +43,7 @@ A complete Android TV launcher based on [CleanYourTV](https://github.com/Gathin/
 
 ## Your accounts (important!)
 
-**None of Mohamed Yasser's accounts are in this download.** The launcher itself holds no accounts — you sign in on your own TV after installing:
+This download contains no accounts — the launcher holds none. You sign in on your own TV after installing:
 
 1. **SmartTube:** open it → sign in with your Google account (from a browser: `yt.be/activate`).
 2. **Prime Video:** open it → sign in with your Amazon account (from a browser: `amazon.com/mytv`).
