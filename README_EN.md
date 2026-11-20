@@ -10,7 +10,7 @@ A complete Android TV launcher based on [CleanYourTV](https://github.com/Gathin/
 - 🎯 **Precise arrows** — every press of an arrow key on the remote moves exactly one tile, no more jumping 3 or 4 tiles.
 - 🎙️ **Mic button works from anywhere** — press it while watching any app and voice search opens right away, routing your query to the app in front (YouTube, Oscar, browser...).
 - 🔧 **Settings navigation fixed** — arrows now reach every settings row, even the ones below the fold.
-- 🔕 **"Allow USB debugging?" only once** — the key is now fixed inside the app, so the dialog appears once on first install and never again.
+- 🔕 **"Allow USB debugging?" dialog gone for good** — the key is now fixed inside the app, the memory saver cleans without opening any debugging connection (only the hotkey watcher's single connection runs), the watcher restarts itself if it dies while the TV sleeps, it waits 5 minutes if the dialog is dismissed, and shows an on-screen guide to tick "Always allow" — after one approval the dialog never appears again, even after a reboot.
 - 🗣️ **Voice search while watching** — if a video is playing and you search by voice, search opens correctly instead of sending you back to Home.
 - 🛠️ **Fixes** — the weather crash that closed the launcher, plus general stability.
 
