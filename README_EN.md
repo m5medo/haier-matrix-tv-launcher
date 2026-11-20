@@ -1,14 +1,14 @@
-# Mido's TV Launcher 📺
+# Haier Matrix TV Launcher 📺
 
-**Mido's exact TV setup — everything on it — except his accounts.**
+**Mohamed Yasser's exact TV setup — every feature — except his personal accounts.**
 
-A full Android TV launcher based on [CleanYourTV](https://github.com/Gathin/cleanyourtv) (MIT license), tuned for the Haier Matrix TV. Prayer times and adhan, an Arabic voice assistant, auto game mode, cinema and match-night scenes, live Egyptian league scores, and more.
+A complete Android TV launcher based on [CleanYourTV](https://github.com/Gathin/cleanyourtv) (MIT license), customized for the Haier Matrix TV. It includes prayer times and adhan, an Arabic voice assistant, auto game mode, cinema and match-night scenes, live Egyptian league scores, and much more.
 
 ## Who is it for?
 
 | TV | Status |
 |---|---|
-| **Haier Matrix H43K80EF** (or any model on the same HRT56EU board) | ✅ **Full** — everything works exactly as on Mido's TV |
+| **Haier Matrix H43K80EF** (or any model on the same HRT56EU board) | ✅ **Full** — every feature works exactly as on Mohamed Yasser's TV |
 | Any Android TV 14 with a **MT5867** (MediaTek) chip | ✅ Full, most likely |
 | Any Android TV **14** on ARM | ✅ Core features work (prayer, adhan, voice, cinema, scores) — auto game mode and the remote's Settings/Mic keys may need tweaking |
 | Android TV **older than 14** or non-ARM chips | ❌ Not guaranteed |
@@ -39,11 +39,11 @@ A full Android TV launcher based on [CleanYourTV](https://github.com/Gathin/clea
 - **SmartTube** — ad-free YouTube (downloaded from its official GitHub).
 - **Oscar TV** — movies and series (downloaded from its official GitHub).
 - **From the Play Store** (opened for you, tap "Install"): TDM, VLC, X-plore, SofaBrowser, Google TV, Prime Video, and Gboard (Arabic keyboard).
-- **Cleanup:** disables 7 useless apps (Haier + Google bloat) and hides the stock YouTube — all reversible from Settings.
+- **Cleanup:** disables 7 unnecessary apps (Haier + Google bloat) and hides the stock YouTube — all reversible from Settings.
 
 ## Your accounts (important!)
 
-**None of Mido's accounts are in this download.** The launcher itself holds no accounts — you sign in on your own TV after installing:
+**None of Mohamed Yasser's accounts are in this download.** The launcher itself holds no accounts — you sign in on your own TV after installing:
 
 1. **SmartTube:** open it → sign in with your Google account (from a browser: `yt.be/activate`).
 2. **Prime Video:** open it → sign in with your Amazon account (from a browser: `amazon.com/mytv`).
@@ -63,7 +63,7 @@ A full Android TV launcher based on [CleanYourTV](https://github.com/Gathin/clea
 - ⏱️ **Sleep timer** — a "Sleep" tile on Home puts the TV to sleep.
 - ⚡ **Power meter** — tracks the TV's kWh and cost in EGP (2026 slabs).
 
-## If something goes wrong
+## Troubleshooting
 
 - **"Can't reach the TV":** make sure the TV and PC are on the same Wi-Fi, "Wireless debugging" is on, and the address is right.
 - **Launcher doesn't show after install:** press Home on the remote and pick "Home" from the list.
@@ -74,8 +74,8 @@ A full Android TV launcher based on [CleanYourTV](https://github.com/Gathin/clea
 ## Source & license
 
 - Based on [CleanYourTV](https://github.com/Gathin/cleanyourtv) — **MIT** license (Copyright (c) 2026 Gathin).
-- Additions (prayer, adhan, voice, cinema, game mode, scores, ...) by **Mido** — same MIT license.
+- Additions (prayer, adhan, voice, cinema, game mode, scores, ...) by **Mohamed Yasser** — same MIT license.
 - SmartTube and Oscar TV have their own (open source) licenses — the installer downloads them from their official GitHub releases.
 
 ---
-Made with love in Egypt 🇪🇬 — if you like it, give the repo a ⭐ and share it.
+Made in Egypt 🇪🇬 — if you like it, give the repo a ⭐ and share it.
