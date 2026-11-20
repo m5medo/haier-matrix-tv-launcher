@@ -4,6 +4,16 @@ A complete Android TV launcher for Haier Matrix TVs — prayer times & adhan, Ar
 
 A complete Android TV launcher based on [CleanYourTV](https://github.com/Gathin/cleanyourtv) (MIT license), customized for the Haier Matrix TV. It includes prayer times and adhan, an Arabic voice assistant, auto game mode, cinema and match-night scenes, live Egyptian league scores, and much more.
 
+## What's new in this update (November 2026)
+
+- ⚡ **Automatic memory saver** — 20 seconds after you return to Home, the launcher closes background apps by itself, so the TV stays fast even with only 1.4 GB of RAM.
+- 🎯 **Precise arrows** — every press of an arrow key on the remote moves exactly one tile, no more jumping 3 or 4 tiles.
+- 🎙️ **Mic button works from anywhere** — press it while watching any app and voice search opens right away, routing your query to the app in front (YouTube, Oscar, browser...).
+- 🔧 **Settings navigation fixed** — arrows now reach every settings row, even the ones below the fold.
+- 🔕 **"Allow USB debugging?" only once** — the key is now fixed inside the app, so the dialog appears once on first install and never again.
+- 🗣️ **Voice search while watching** — if a video is playing and you search by voice, search opens correctly instead of sending you back to Home.
+- 🛠️ **Fixes** — the weather crash that closed the launcher, plus general stability.
+
 ## Who is it for?
 
 | TV | Status |
@@ -16,6 +26,13 @@ A complete Android TV launcher based on [CleanYourTV](https://github.com/Gathin/
 **Processor:** ARM 32-bit (armeabi-v7a) — also runs on 64-bit ARM.
 **Android:** 14 (minimum 8.0).
 **RAM:** the original TV has only 1.4 GB, and the launcher is tuned to stay light on it.
+
+**Who exactly is it for?**
+- ✅ A **Haier Matrix** owner who wants an Arabic launcher with prayer times, adhan and Arabic voice search.
+- ✅ Anyone tired of a slow TV who wants it to stay fast by itself (automatic memory saver).
+- ✅ Anyone who watches YouTube through SmartTube and wants the remote's YouTube button to open it directly.
+- ✅ Anyone who plays on HDMI and wants game mode to switch on by itself.
+- ⚠️ Not for someone who wants a plain, traditional launcher with no extras, or for non-Android-TV screens (Samsung Tizen, LG webOS).
 
 ## What you need (just this)
 
@@ -51,6 +68,7 @@ This download contains no accounts — the launcher holds none. You sign in on y
 
 ## Features
 
+- ⚡ **Automatic memory saver** — 20 seconds after you return to Home, the launcher closes background apps (Oscar, Prime, Store...) by itself, so RAM stays free and the TV stays fast. Turn it off in Settings → "Automatic memory saver".
 - 🕌 **Prayer times & adhan** — Egyptian calculation method, muezzin adhan (3 voices), a reminder 3 minutes before, auto-dismiss. **Pick your city** in Settings → "Prayer location" (18 Egyptian cities, default Aga / Nosa El-Gheit).
 - 🌙 **Screensaver** — big clock, Hijri date, next prayer with countdown, weather, and an ayah or hadith that **changes every time** the TV goes to sleep.
 - 🎙️ **Arabic voice assistant** — "open Oscar", "play Ahmed Kassab", "when is the next prayer", "cinema night", "sleep in one hour" — from the remote's Mic button.
@@ -67,7 +85,8 @@ This download contains no accounts — the launcher holds none. You sign in on y
 
 - **"Can't reach the TV":** make sure the TV and PC are on the same Wi-Fi, "Wireless debugging" is on, and the address is right.
 - **Launcher doesn't show after install:** press Home on the remote and pick "Home" from the list.
-- **Settings or Mic button not working:** Launcher → Settings → "Settings & Mic buttons" — enable the local watcher (runs on the TV itself, no PC needed).
+- **Settings or Mic button not working:** Launcher → Settings → "Settings & Mic buttons" — enable the local watcher (runs on the TV itself, no PC needed). **Note:** the Mic button depends on the local watcher — if it stops suddenly, try restarting the TV.
+- **"Allow USB debugging?" appeared again:** check "Always" before tapping "Allow" — if you tap "Allow" without "Always", the dialog comes back on the next reconnect. After checking "Always" once, it never appears again.
 - **Prayer times wrong:** Launcher → Settings → "Prayer location" → pick your city.
 - **Anything else:** open an issue here on GitHub.
 
